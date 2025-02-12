@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption Center</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🐾 Adopt a Pet 🐾</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#pets">Available Pets</a></li>
+                <li><a href="#adopt">Adopt</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Pet Adoption Center</h2>
+        <p>Find your perfect furry friend and give them a loving home.</p>
+    </section>
+
+    <section id="pets">
+        <h2>Available Pets</h2>
+        <div class="pet-gallery">
+            <div class="pet">
+                <img src="C:\Users\shrut\OneDrive\Desktop\dog-puppy-on-garden-royalty-free-image-1586966191.avif" alt="Dog">
+                <h3>Max</h3>
+                <p>Breed: Golden Retriever | Age: 2 years</p>
+            </div>
+            <div class="pet">
+                <img src="C:\Users\shrut\OneDrive\Desktop\cat.jpg" alt="Cat">
+                <h3>Whiskers</h3>
+                <p>Breed: Persian Cat | Age: 1 year</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="adopt">
+        <h2>Adopt a Pet</h2>
+        <form action="#">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="pet-choice">Choose a Pet:</label>
+            <select id="pet-choice">
+                <option value="Max">Max - Golden Retriever</option>
+                <option value="Whiskers">Whiskers - Persian Cat</option>
+            </select>
+
+            <button type="submit">Submit Adoption Request</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@petadoption.com</p>
+        <p>Phone: +123 456 7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pet Adoption Center</p>
+    </footer>
+</body>
+</html>
